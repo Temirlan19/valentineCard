@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Valentine Card</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".container").mouseenter(function(){
+        $(".card").stop().animate({
+          top:"-90px"
+        }, "slow");
+      }).mouseleave(function(){
+        $(".card").stop().animate({
+          top:0
+        }, "slow");
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="valentines">
+      <div class="envelope"></div>
+      <div class="front"></div>
+      <div class="card">
+        <div class="text">Nazerke,</br>Happy</br>Valentine's</br>Day!</div>
+    <div class="heart"></div>
+
+    </div>
+  <div class='hearts'>
+    <div class='one'></div>
+      <div class='two'></div>
+      <div class='three'></div>
+      <div class='four'></div>
+      <div class='five'></div>
+  </div>
+  </div>
+  </div>
+  <div class='shadow'></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+git config --global user.email "210109006@stu.sdu.edu.kz"
+  git config --global user.name "Temirlan19"
