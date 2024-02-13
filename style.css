@@ -116,6 +116,7 @@ body {
   .hearts {
     position: absolute;
     top: 15px;
+    left: 10px;
   }
   
   @keyframes heart {
